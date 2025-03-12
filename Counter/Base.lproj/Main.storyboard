@@ -42,7 +42,7 @@
                     </view>
                     <connections>
                         <outlet property="button" destination="8dm-Rs-XpS" id="YJu-CX-rzV"/>
-                        <outlet property="text" destination="KaE-LU-xq2" id="CFf-gz-blB"/>
+                        <outlet property="counterLabel" destination="KaE-LU-xq2" id="h9Y-ki-DIb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
