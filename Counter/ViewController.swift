@@ -1,19 +1,15 @@
-//
-//  ViewController.swift
-//  Counter
-//
-//  Created by Александр Козлов on 12.03.2025.
-//
-
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+final class ViewController: UIViewController {
+    @IBOutlet weak var counterLabel: UILabel!
+    @IBOutlet weak var button: UIButton!
+    
+    private var counter = 0
+    @IBAction func buttonDidTap(_ sender: Any) {
+        counter += 1
+        counterLabel.text = "\(counter)"
+        
     }
-
-
 }
+
 
